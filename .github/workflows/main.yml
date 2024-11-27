@@ -1,4 +1,4 @@
-name: programmingwithkumaresan2
+name: programmingwithkumaresan
 
 on:
   workflow_dispatch:
@@ -17,4 +17,4 @@ jobs:
         run: cmd /c show.bat
 
       - name: Time Counter
-        run: python time.py
+        run: sleep 21800
